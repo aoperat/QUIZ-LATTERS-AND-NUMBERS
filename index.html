@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-section">
+        <h2>퀴즈: <span id="question"></span></h2>
+        <input type="text" id="answer" placeholder="답을 입력하세요.">
+        <button onclick="checkAnswer()">제출</button>
+    </div>
+    <div class="history-section">
+        <h3>퀴즈 풀이 내역:</h3>
+        <ul id="history"></ul>
+        <p>정답률: <span id="accuracy">0%</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
